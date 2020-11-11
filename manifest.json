@@ -1,0 +1,13 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "View HLS (m3u8) or MPEG-DASH (mpd) manifest files with syntax highlighting in your Chrome browser.",
+   "icons": {
+      "128": "images/hls.png"
+   },
+   "manifest_version": 2,
+   "name": "HLS + MPEG-DASH Manifest File Viewer",
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking",  "*://*/*.m3u8*", "*://*/*.mpd*"],
+   "version": "1.0.0"
+}
